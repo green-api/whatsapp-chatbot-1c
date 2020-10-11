@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="188">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="189"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="183">
+					<Width>76</Width>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>#4FAD4F</BackColor>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="184"/>
+					<ChildItems>
+						<LabelDecoration name="GREENAPI" id="185">
+							<Width>75</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>web:White</TextColor>
+							<Font ref="style:NormalTextFont" height="16" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GREEN API</v8:content>
+								</v8:item>
+							</Title>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="GREENAPIКонтекстноеМеню" id="186"/>
+							<ExtendedTooltip name="GREENAPIРасширеннаяПодсказка" id="187"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<Pages name="Разделы" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>76</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedTooltip name="РазделыРасширеннаяПодсказка" id="2"/>
+					<ChildItems>
+						<Page name="ЧатБот" id="236">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Чат бот</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Чат бот</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ЧатБотРасширеннаяПодсказка" id="237"/>
+							<ChildItems>
+								<UsualGroup name="ДействияБота" id="246">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Действия бота</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Действия бота</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Height>3</Height>
+									<Representation>NormalSeparation</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ДействияБотаРасширеннаяПодсказка" id="247"/>
+									<ChildItems>
+										<Button name="ЗапуститьБота" id="238">
+											<Type>UsualButton</Type>
+											<Width>15</Width>
+											<Height>2</Height>
+											<CommandName>Form.Command.ЗапуститьБота</CommandName>
+											<ExtendedTooltip name="ЗапуститьБотаРасширеннаяПодсказка" id="239"/>
+										</Button>
+										<LabelField name="СтатусПолучениеСообщения" id="248">
+											<DataPath>СтатусПолучениеСообщения</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<TextColor>style:FieldSelectionBackColor</TextColor>
+											<ContextMenu name="СтатусПолучениеСообщенияКонтекстноеМеню" id="249"/>
+											<ExtendedTooltip name="СтатусПолучениеСообщенияРасширеннаяПодсказка" id="250"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаНеЗаполненыНастройки" id="251">
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настройки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настройки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Group>Horizontal</Group>
+									<VerticalAlign>Center</VerticalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНеЗаполненыНастройкиРасширеннаяПодсказка" id="252"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация3" id="253">
+											<Width>3</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Height>2</Height>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="Декорация3КонтекстноеМеню" id="254"/>
+											<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="255"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация2" id="256">
+											<Width>29</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Не заданы настройки подключения. Введите настройки на закладке "Настройки"</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="Декорация2КонтекстноеМеню" id="257"/>
+											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="258"/>
+											<Events>
+												<Event name="Click">Декорация2Нажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаНеСканированКод" id="259">
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настрйоки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настрйоки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Group>Horizontal</Group>
+									<VerticalAlign>Center</VerticalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНеСканированКодРасширеннаяПодсказка" id="260"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация4" id="261">
+											<Width>3</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Height>2</Height>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="Декорация4КонтекстноеМеню" id="262"/>
+											<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="263"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация5" id="264">
+											<Width>32</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Требуется сканировать qr код  Нажмите для перехода на закладку "Настройки" для инструкций</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="Декорация5КонтекстноеМеню" id="265"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="266"/>
+											<Events>
+												<Event name="Click">Декорация5Нажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+						<Page name="НастройкиВнешние" id="153">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки внешние</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="НастройкиВнешниеРасширеннаяПодсказка" id="154"/>
+							<ChildItems>
+								<LabelDecoration name="ОписаниеНачало" id="155">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;fontsize 12&gt;1. Регистрация и подключение телефона&lt;/&gt;
+
+Зарегистрируйтесь в личном кабинете GREEN-API
+Выберите бесплатный тариф "Разработчик"
+Подключите телефон к сервису. Для этого сканируйте QR-код в личном кабинете.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОписаниеНачалоКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="ОписаниеНачалоРасширеннаяПодсказка" id="157"/>
+								</LabelDecoration>
+								<Button name="КнопкаПомощник" id="234">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.КнопкаПомощник</CommandName>
+									<TextColor>web:White</TextColor>
+									<BackColor>#49B349</BackColor>
+									<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Помощник подключения...</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="КнопкаПомощникРасширеннаяПодсказка" id="235"/>
+								</Button>
+								<LabelDecoration name="ОписаниеПродолжение" id="231">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;fontsize 12&gt;2. Укажите параметры "ID Instance" и "API Token"&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОписаниеПродолжениеКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="ОписаниеПродолжениеРасширеннаяПодсказка" id="233"/>
+								</LabelDecoration>
+								<InputField name="IdInstance" id="19">
+									<DataPath>Объект.IdInstance</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ID Instance</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>true</HorizontalStretch>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<EditTextUpdate>OnValueChange</EditTextUpdate>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>9999</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="IdInstanceКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="IdInstanceРасширеннаяПодсказка" id="21"/>
+									<Events>
+										<Event name="OnChange">IdInstanceПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ApiToken" id="16">
+									<DataPath>Объект.ApiToken</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>API Token</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>true</HorizontalStretch>
+									<EditTextUpdate>OnValueChange</EditTextUpdate>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>123fdws3214t3456g214234171855e0ff3f597f1</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="ApiTokenКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ApiTokenРасширеннаяПодсказка" id="18"/>
+									<Events>
+										<Event name="OnChange">ApiTokenПриИзменении</Event>
+									</Events>
+								</InputField>
+								<LabelDecoration name="ОписаниеНачалоКонец" id="158">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;fontsize 12&gt;3. Проверьте подключение аккаунта&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОписаниеНачалоКонецКонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="ОписаниеНачалоКонецРасширеннаяПодсказка" id="160"/>
+								</LabelDecoration>
+								<Button name="ПроверитьПодключение" id="161">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПроверитьПодключение</CommandName>
+									<ExtendedTooltip name="ПроверитьПодключениеРасширеннаяПодсказка" id="162"/>
+								</Button>
+								<LabelField name="СтатусПроверки" id="169">
+									<DataPath>СтатусСервиса</DataPath>
+									<Visible>false</Visible>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>БЛ='Отключен (требуется сканировать QR-код)'; БИ=Подключен</v8:content>
+										</v8:item>
+									</Format>
+									<TextColor>style:AccentColor</TextColor>
+									<ContextMenu name="СтатусПроверкиКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="СтатусПроверкиРасширеннаяПодсказка" id="171"/>
+								</LabelField>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.GreenAPI_ChatBot</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Save>
+				<Field>Объект.ApiToken</Field>
+				<Field>Объект.IdInstance</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СтатусСервиса" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусПолучениеСообщения" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус получение сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БотЗапущен" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бот запущен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СтатусПроверки</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СтатусСервиса</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:LimeGreen</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СтатусПроверки</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СтатусСервиса</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьСтатус" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить статус</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить статус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьСтатус</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПроверитьПодключение" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьПодключение</Action>
+		</Command>
+		<Command name="КнопкаПомощник" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка помощник</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка помощник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КнопкаПомощник</Action>
+		</Command>
+		<Command name="ЗапуститьБота" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить бота</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьБота</Action>
+		</Command>
+	</Commands>
+</Form>
