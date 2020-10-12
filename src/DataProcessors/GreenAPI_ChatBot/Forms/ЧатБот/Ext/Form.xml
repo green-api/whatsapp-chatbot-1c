@@ -27,6 +27,7 @@
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="184"/>
 					<ChildItems>
 						<LabelDecoration name="GREENAPI" id="185">
+							<Visible>false</Visible>
 							<Width>75</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<TextColor>web:White</TextColor>
@@ -65,7 +66,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Чат бот</v8:content>
+									<v8:content>Чат-бот</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
