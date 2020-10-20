@@ -55,6 +55,7 @@
 									<ExtendedTooltip name="СтраницаДекорацииНачалоExtendedTooltip" id="97"/>
 									<ChildItems>
 										<LabelDecoration name="GREENAPI" id="172">
+											<Visible>false</Visible>
 											<Width>75</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<TextColor>web:White</TextColor>
@@ -83,6 +84,7 @@
 									<ExtendedTooltip name="СтраницаДекорацииПродолжениеExtendedTooltip" id="99"/>
 									<ChildItems>
 										<LabelDecoration name="GREENAPI1" id="177">
+											<Visible>false</Visible>
 											<Width>75</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<TextColor>web:White</TextColor>
@@ -111,6 +113,7 @@
 									<ExtendedTooltip name="СтраницаДекорацииОкончаниеExtendedTooltip" id="101"/>
 									<ChildItems>
 										<LabelDecoration name="GREENAPI2" id="182">
+											<Visible>false</Visible>
 											<Width>75</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<TextColor>web:White</TextColor>

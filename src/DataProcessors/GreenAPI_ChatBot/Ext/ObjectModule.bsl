@@ -320,6 +320,7 @@
 		Структура.Вставить("outgoingWebhook", "no");
 		Структура.Вставить("deviceWebhook", "no");
 		Структура.Вставить("stateWebhook", "no");
+		Структура.Вставить("delaySendMessagesMilliseconds", 500);
 		
 		УстановитьНастройкиАккаунта(Структура);
 		

@@ -205,7 +205,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Требуется сканировать qr код  Нажмите для перехода на закладку "Настройки" для инструкций</v8:content>
+													<v8:content>Требуется сканировать qr код  Нажмите на ссылку для перехода на закладку "Настройки" для инструкций</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -214,6 +214,49 @@
 											<Events>
 												<Event name="Click">Декорация5Нажатие</Event>
 											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЗапущенЧатБот" id="267">
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа запущен чат бот</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа запущен чат бот</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗапущенЧатБотРасширеннаяПодсказка" id="268"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация1" id="269">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Чатбот запущен. Отправьте любое сообщение на свой номер для начала диалога.
+Напишите &lt;colorstyle -46&gt;Выход&lt;/&gt;, чтобы остановить работу бота.
+
+Чатбот работает в режиме ожидания получения сообщений - 20 сек.
+
+Далее переходит в режим бездействия - 10 сек.
+
+В реальных условиях режим бездействия можно сократить, чтобы работа чатбота не прерывалась.
+
+Рекомендуется перенести код в фоновое задание на сервер.
+
+На время работы чатбота ваш телефон должен быть заряжен и подключен к Интернет.
+
+Если телефон выключится, то чатбот перестанет работать.</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="270"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="271"/>
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
