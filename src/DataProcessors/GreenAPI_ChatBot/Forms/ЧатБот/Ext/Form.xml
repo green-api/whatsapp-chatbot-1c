@@ -244,7 +244,7 @@
 
 Чатбот работает в режиме ожидания получения сообщений - 20 сек.
 
-Далее переходит в режим бездействия - 10 сек.
+Далее переходит в режим бездействия - 3 сек.
 
 В реальных условиях режим бездействия можно сократить, чтобы работа чатбота не прерывалась.
 
@@ -396,6 +396,25 @@
 									<ContextMenu name="СтатусПроверкиКонтекстноеМеню" id="170"/>
 									<ExtendedTooltip name="СтатусПроверкиРасширеннаяПодсказка" id="171"/>
 								</LabelField>
+								<CheckBoxField name="ОтмечатьВходящиеСообщенияПрочитанными" id="272">
+									<DataPath>Объект.ОтмечатьВходящиеСообщенияПрочитанными</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОтмечатьВходящиеСообщенияПрочитаннымиКонтекстноеМеню" id="273"/>
+									<ExtendedTooltip name="ОтмечатьВходящиеСообщенияПрочитаннымиРасширеннаяПодсказка" id="274">
+										<TextColor>style:FieldSelectionBackColor</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Каждое входящее сообщение на ваш номер будет помечено как прочитанное сразу при получении. Отключите эту настройку, если требуется отслеживать входящие сообщения с телефона</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+									<Events>
+										<Event name="OnChange">ОтмечатьВходящиеСообщенияПрочитаннымиПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
 							</ChildItems>
 						</Page>
 					</ChildItems>
@@ -554,12 +573,6 @@
 					<v8:content>Запустить бота</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Запустить бота</v8:content>
-				</v8:item>
-			</ToolTip>
 			<Action>ЗапуститьБота</Action>
 		</Command>
 	</Commands>
