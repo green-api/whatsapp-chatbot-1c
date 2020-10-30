@@ -260,6 +260,58 @@
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
+								<UsualGroup name="ГруппаНестандартныеНастройки" id="275">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настрйоки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа не заполнены настрйоки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Group>Horizontal</Group>
+									<VerticalAlign>Center</VerticalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНестандартныеНастройкиРасширеннаяПодсказка" id="276"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация6" id="277">
+											<Width>3</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Height>2</Height>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="Декорация6КонтекстноеМеню" id="278"/>
+											<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="279"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация7" id="280">
+											<Width>32</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пройдите помощник настройки для установки стандартных настроек и повторите запуск чатбота</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="Декорация7КонтекстноеМеню" id="281"/>
+											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="282"/>
+											<Events>
+												<Event name="Click">Декорация5Нажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</Page>
 						<Page name="НастройкиВнешние" id="153">

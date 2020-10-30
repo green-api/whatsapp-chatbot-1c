@@ -180,6 +180,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<DataProcessor>GreenAPI_ChatBot</DataProcessor>
+			<DataProcessor>Обработка1</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
