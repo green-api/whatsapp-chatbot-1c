@@ -261,6 +261,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаНестандартныеНастройки" id="275">
+									<Visible>false</Visible>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
