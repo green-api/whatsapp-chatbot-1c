@@ -10,6 +10,16 @@
 * Два номера с учетками WhatsApp. Номера нужны, чтобы отправлять сообщения как бы "самому себе". При этом первый номер будет тот, с которого  мы будем писать команды чат-боту (далее ``клиентский номер``), а второй номер - с которого будет отвечать сам бот (далее ``номер бота``). Отправлять с одного номера не получится.
 * Аккаунт в сервисе [Green API](https://green-api.com/). Подойдет бесплатный тариф "Разработчик".
 
+## Настройки
+
+Перед запуском бота необходимо включить входящие уведомления в настройках экземпляра с помощью <a href="https://green-api.com/en/docs/api/account/SetSettings/">метода SetSettings</a>.
+
+```json
+"incomingWebhook": "yes",
+"outgoingMessageWebhook": "yes",
+"outgoingAPIMessageWebhook": "yes",
+```
+
 ## Как запустить бота:
 
 1. Устанавливаем на телефон два приложения - обычный [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) и [Whatsapp Business](https://play.google.com/store/apps/details?id=com.whatsapp.w4b).
