@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
@@ -308,9 +308,6 @@
 													<TitleLocation>None</TitleLocation>
 													<Height>13</Height>
 													<VerticalStretch>false</VerticalStretch>
-													<Border width="1">
-														<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-													</Border>
 													<ContextMenu name="КартинкаВыборАккаунтаКонтекстноеМеню" id="228"/>
 													<ExtendedTooltip name="КартинкаВыборАккаунтаРасширеннаяПодсказка" id="229"/>
 												</PictureField>
@@ -367,9 +364,6 @@
 													<Height>13</Height>
 													<VerticalStretch>false</VerticalStretch>
 													<PictureSize>Proportionally</PictureSize>
-													<Border width="1">
-														<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-													</Border>
 													<ContextMenu name="КартинкаСканКодаКонтекстноеМеню" id="241"/>
 													<ExtendedTooltip name="КартинкаСканКодаРасширеннаяПодсказка" id="242"/>
 												</PictureField>
@@ -443,6 +437,28 @@
 													<ContextMenu name="УкажитеПараметрКонтекстноеМеню" id="259"/>
 													<ExtendedTooltip name="УкажитеПараметрРасширеннаяПодсказка" id="260"/>
 												</LabelDecoration>
+												<InputField name="apiUrl" id="421">
+													<DataPath>Объект.apiUrl</DataPath>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>api.green-api.com</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="apiUrlКонтекстноеМеню" id="422"/>
+													<ExtendedTooltip name="apiUrlРасширеннаяПодсказка" id="423"/>
+												</InputField>
+												<InputField name="mediaUrl" id="424">
+													<DataPath>Объект.mediaUrl</DataPath>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>media.green-api.com</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="mediaUrlКонтекстноеМеню" id="425"/>
+													<ExtendedTooltip name="mediaUrlРасширеннаяПодсказка" id="426"/>
+												</InputField>
 												<InputField name="IdInstance" id="261">
 													<DataPath>Объект.IdInstance</DataPath>
 													<InputHint>
@@ -473,9 +489,6 @@
 											<Height>13</Height>
 											<VerticalStretch>false</VerticalStretch>
 											<PictureSize>Proportionally</PictureSize>
-											<Border width="1">
-												<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-											</Border>
 											<ContextMenu name="КартинкаДанныеАккаунтаКонтекстноеМеню" id="268"/>
 											<ExtendedTooltip name="КартинкаДанныеАккаунтаРасширеннаяПодсказка" id="269"/>
 										</PictureField>

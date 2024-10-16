@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
-		<Metadata name="Configuration.Конфигурация" id="a7dc518d-fa86-4892-a7af-ba2aca88ad30" configVersion="2defbc7477cc5c4eb271f540ec84a68c00000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="53c341e0-4783-470a-8069-53c443833285.8" configVersion="0925d818652ea1419672632993faade400000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot" id="c7a0c435-ff2f-4f23-b5f8-12c0a0031561" configVersion="dba151c25bde6543a5e4668ab827cc2600000000">
+		<Metadata name="Configuration.Конфигурация" id="a7dc518d-fa86-4892-a7af-ba2aca88ad30" configVersion="e6d3f6940919164aaea388507443ec3500000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="53c341e0-4783-470a-8069-53c443833285.8" configVersion="9f1e79052d91c74091ce5d02cfb34afd00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot" id="c7a0c435-ff2f-4f23-b5f8-12c0a0031561" configVersion="54493a9f8286664e8bb474863da59ce300000000">
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ИнтервалОтправкиСообщений" id="130f195c-fc63-4444-a808-774cf11432eb"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ПолучатьУведомленииОСостоянииТелефона" id="1b01e3ca-0950-4da4-b4a5-8d97a6bf1835"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.webhookUrl" id="358c8dd0-ce05-4c8a-91a3-58ee8b9e3908"/>
@@ -11,32 +11,33 @@
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.IdInstance" id="41db95e2-482b-4e81-93af-a82b704ccc02"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.TabularSection.ЧатыКлиентов.Attribute.ТекущийИндексШаблона" id="5642e4b2-3eea-42c1-a038-3f08f97d3a0b"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ПолучатьСтатусыОтправленныхСообщений" id="58faf0fe-08f0-4f94-b4c6-349b9af2a6e8"/>
+			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.apiUrl" id="651c03e1-af50-46ac-bcba-3eaebf3e2f19"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ПолучатьУведомленияОСостоянииАккаунта" id="a94d5eb2-3035-42f6-a687-8f8579ef8ae1"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ПолучатьВходящиеСообщенияИФайлы" id="c3aae594-893b-4173-9840-a5640dc4088f"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ОтмечатьВходящиеСообщенияПрочитанными" id="c40478a4-84d6-494a-8f9e-463b9776347b"/>
+			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.mediaUrl" id="c8864f9c-0c1f-4a58-a558-42247135d4ee"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.ПолучатьВходящиеУведомления" id="df760c17-642e-4260-ba05-4b114a0e4738"/>
-			<Metadata name="DataProcessor.GreenAPI_ChatBot.Attribute.Реквизит1" id="ef42a292-ecbf-45c8-861f-1b61db932e80"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.TabularSection.ЧатыКлиентов.Attribute.ИдЧата" id="f70420bc-5e85-477b-b970-db9d406ba135"/>
 			<Metadata name="DataProcessor.GreenAPI_ChatBot.TabularSection.ЧатыКлиентов" id="f89256df-e1eb-4180-b07f-2d2cb95f8240"/>
 		</Metadata>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ПомощникПодключения" id="21af060b-36d6-4144-aca7-290e47c884b1" configVersion="08b02ed61a286f47aa97b68dbfc8474600000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ПомощникПодключения.Form" id="21af060b-36d6-4144-aca7-290e47c884b1.0" configVersion="f677cd841affe44395cccd46c690e35e00000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ЧатБот" id="cbac5b2b-5bb0-4fff-9e8f-28d494138098" configVersion="cfc3ab3c924bb248971af3a39ea1618600000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ЧатБот.Form" id="cbac5b2b-5bb0-4fff-9e8f-28d494138098.0" configVersion="32be5308f74a56468b269c5654375da400000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.ObjectModule" id="c7a0c435-ff2f-4f23-b5f8-12c0a0031561.0" configVersion="8faeaece33d8a048a53163a5e6a5194200000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.QRМакет" id="48c29a2f-a511-4612-86ed-2ccc82cc294b" configVersion="d2c48bff423d7f4bae3fe2af7b1dedee00000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.QRМакет.Template" id="48c29a2f-a511-4612-86ed-2ccc82cc294b.0" configVersion="68cecdfce5bd1042a5af0edd311e7f3000000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ВыборАккаунта" id="e975b9da-c08a-4e19-bdac-abe7ef7db7b3" configVersion="3dabaf9cc57fdc4ebf1dcc526ec6015e00000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ВыборАккаунта.Template" id="e975b9da-c08a-4e19-bdac-abe7ef7db7b3.0" configVersion="e5015ac0144fee48ab659c4b52ff87c900000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ДанныеАккаунта" id="cbf18ee8-d3d4-44ba-b668-8ab14a46b546" configVersion="2c6fb5c4611234468887f10292610c5300000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ДанныеАккаунта.Template" id="cbf18ee8-d3d4-44ba-b668-8ab14a46b546.0" configVersion="ef9de46fe4a8db4c86bb522b2a22b22600000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаWhatsApp" id="f16942f7-c13c-4bb8-888f-98ec1d80b35d" configVersion="140ad8cb6e70bf4b8d5cf150fedd164300000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаWhatsApp.Template" id="f16942f7-c13c-4bb8-888f-98ec1d80b35d.0" configVersion="43b304e66219ca4a841f44701af5d8e600000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаФиниш" id="19009793-398e-48c9-a5f1-2d9f4784f736" configVersion="8b3b2b6fc870a243ab8239ac6dfbecb800000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаФиниш.Template" id="19009793-398e-48c9-a5f1-2d9f4784f736.0" configVersion="6fea4beceb1b6d48898a922c121ea97c00000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.СканQR" id="6b2f2ecd-6863-4b42-90d4-be5d23472c8c" configVersion="8d132cbd72ccea4eaca19f1dadc75d2a00000000"/>
-		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.СканQR.Template" id="6b2f2ecd-6863-4b42-90d4-be5d23472c8c.0" configVersion="69a595ac9e45344fb1162f8df0a4d80a00000000"/>
-		<Metadata name="DataProcessor.Обработка1" id="42911618-7b83-47e5-b394-0d2675479000" configVersion="131c8f9f7baca44ba6e50fb19d01f6c900000000"/>
-		<Metadata name="Language.Русский" id="4c15b64d-a55e-47ed-b29e-0a8e70ab6712" configVersion="09df21e4c4103248a9b65bf3a44cc2ed00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ПомощникПодключения" id="21af060b-36d6-4144-aca7-290e47c884b1" configVersion="73fc13e397bbab4ea712207d550c378b00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ПомощникПодключения.Form" id="21af060b-36d6-4144-aca7-290e47c884b1.0" configVersion="98afc022a21ddc4695b5409a7a755ff600000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ЧатБот" id="cbac5b2b-5bb0-4fff-9e8f-28d494138098" configVersion="a436c6d27cfaee4eba56846f1cd4ac7800000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Form.ЧатБот.Form" id="cbac5b2b-5bb0-4fff-9e8f-28d494138098.0" configVersion="1fdea2a42f279340952237c71b0d42d600000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.ObjectModule" id="c7a0c435-ff2f-4f23-b5f8-12c0a0031561.0" configVersion="946a090911240c448188003f39f1af7a00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.QRМакет" id="48c29a2f-a511-4612-86ed-2ccc82cc294b" configVersion="757f80b1ec4cc44aa51d8e7e32bb8dc600000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.QRМакет.Template" id="48c29a2f-a511-4612-86ed-2ccc82cc294b.0" configVersion="6b618de890a3b64780f3845a4a46646200000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ВыборАккаунта" id="e975b9da-c08a-4e19-bdac-abe7ef7db7b3" configVersion="ad53a70ec29a1b448240ab4b312a394f00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ВыборАккаунта.Template" id="e975b9da-c08a-4e19-bdac-abe7ef7db7b3.0" configVersion="16590fd8b2b1a34890f347fe8a87836a00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ДанныеАккаунта" id="cbf18ee8-d3d4-44ba-b668-8ab14a46b546" configVersion="dacccdd101854c49af15738a2d0b6be200000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ДанныеАккаунта.Template" id="cbf18ee8-d3d4-44ba-b668-8ab14a46b546.0" configVersion="bdd8baabfd937e42a0eee5c78632301c00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаWhatsApp" id="f16942f7-c13c-4bb8-888f-98ec1d80b35d" configVersion="c93b3007f4a5654895e2a3a7af9d9ad800000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаWhatsApp.Template" id="f16942f7-c13c-4bb8-888f-98ec1d80b35d.0" configVersion="c7868785520b2940ad40589969d09ed900000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаФиниш" id="19009793-398e-48c9-a5f1-2d9f4784f736" configVersion="d5c2fb9d9e49dc48a4e06060e7a5829e00000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.ИконкаФиниш.Template" id="19009793-398e-48c9-a5f1-2d9f4784f736.0" configVersion="74ca022bb55e0649a6f6da2f19021c7600000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.СканQR" id="6b2f2ecd-6863-4b42-90d4-be5d23472c8c" configVersion="9cd9eb420ecfc547b83e0ec0d39fe3b900000000"/>
+		<Metadata name="DataProcessor.GreenAPI_ChatBot.Template.СканQR.Template" id="6b2f2ecd-6863-4b42-90d4-be5d23472c8c.0" configVersion="4b22d8eb4e6fd744a5e616c5ce30811300000000"/>
+		<Metadata name="DataProcessor.Обработка1" id="42911618-7b83-47e5-b394-0d2675479000" configVersion="50311ad8ad75854d8b7092552c74936400000000"/>
+		<Metadata name="Language.Русский" id="4c15b64d-a55e-47ed-b29e-0a8e70ab6712" configVersion="7e4284078357d341a105bd2bb14342d700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -9,7 +9,6 @@
 	<Events>
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
-		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -404,6 +403,7 @@
 										</v8:item>
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<EditTextUpdate>OnValueChange</EditTextUpdate>
 									<InputHint>
 										<v8:item>
@@ -413,9 +413,34 @@
 									</InputHint>
 									<ContextMenu name="ApiTokenКонтекстноеМеню" id="17"/>
 									<ExtendedTooltip name="ApiTokenРасширеннаяПодсказка" id="18"/>
-									<Events>
-										<Event name="OnChange">ApiTokenПриИзменении</Event>
-									</Events>
+								</InputField>
+								<InputField name="apiUrl" id="283">
+									<DataPath>Объект.apiUrl</DataPath>
+									<HorizontalStretch>true</HorizontalStretch>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<EditTextUpdate>OnValueChange</EditTextUpdate>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>api.green-api.com</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="apiUrlКонтекстноеМеню" id="284"/>
+									<ExtendedTooltip name="apiUrlРасширеннаяПодсказка" id="285"/>
+								</InputField>
+								<InputField name="mediaUrl" id="286">
+									<DataPath>Объект.mediaUrl</DataPath>
+									<HorizontalStretch>true</HorizontalStretch>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<EditTextUpdate>OnValueChange</EditTextUpdate>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>media.green-api.com</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="mediaUrlКонтекстноеМеню" id="287"/>
+									<ExtendedTooltip name="mediaUrlРасширеннаяПодсказка" id="288"/>
 								</InputField>
 								<LabelDecoration name="ОписаниеНачалоКонец" id="158">
 									<AutoMaxWidth>false</AutoMaxWidth>
